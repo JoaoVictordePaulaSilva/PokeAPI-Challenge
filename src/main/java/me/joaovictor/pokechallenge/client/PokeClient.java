@@ -1,4 +1,12 @@
 package me.joaovictor.pokechallenge.client;
 
-public class PokeClient {
+import me.joaovictor.pokechallenge.dto.PokemonDTO;
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+@FeignClient(name = "pokeapi", url = "https://pokeapi.co/api/v2")
+public interface PokeClient {
+    @GetMapping("/pokemon/{nome}")
+    PokemonDTO buscarPokemon(@PathVariable("nome") String nome);
 }

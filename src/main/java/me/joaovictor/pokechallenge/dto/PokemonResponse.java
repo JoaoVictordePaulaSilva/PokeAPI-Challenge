@@ -16,3 +16,4 @@ public class PokemonResponse {
     private List<String> tipos;     // Este deve ser List<String>
     private String imagemUrl;       // Este deve ser APENAS String
 }
+

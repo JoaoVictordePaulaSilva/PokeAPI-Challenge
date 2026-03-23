@@ -1,6 +1,8 @@
 # 📑 PokeAPI Spring Boot Challenge
 Este projeto é uma aplicação Full Stack desenvolvida para o desafio de consumo de APIs externas. A aplicação consulta a PokeAPI para exibir informações detalhadas sobre Pokémons, como ID, nome, tipos e sprites, utilizando uma interface web amigável.
+---
 ![Greninja Preview](./img/img.png)
+---
 🚀 Tecnologias Utilizadas
 Java 21: Versão LTS mais recente para performance e segurança.
 
